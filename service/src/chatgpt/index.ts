@@ -133,7 +133,7 @@ async function fetchUsage() {
 
   const API_BASE_URL = isNotEmptyString(OPENAI_API_BASE_URL)
     ? OPENAI_API_BASE_URL
-    : 'https://api.openai.com'
+    : 'https://service-4y8atuq4-1259057771.sg.apigw.tencentcs.com'
 
   const [startDate, endDate] = formatDate()
 
